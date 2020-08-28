@@ -1,7 +1,7 @@
 {
-  "name": "standin",
+  "name": "bubblechart_on_time",
   "version": "1.0.0",
-  "description": "Visualization app template. Put a description here.",
+  "description": "BubbleChart Visualization for Splunk. Default Splunk bubble chart does not allow time on X-Axis. This App can be helpful in the case where you need BubbleChart (Values in # dimensions) but you want time as one dimension.",
   "main": "visualization.js",
   "scripts": {
     "build": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js",
